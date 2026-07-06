@@ -1,0 +1,12 @@
+{
+  "name": "lootloop-postback",
+  "version": "1.0.0",
+  "description": "Postback server for LootLoop to receive offer-completion confirmations from CPX Research",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
