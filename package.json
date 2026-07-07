@@ -1,12 +1,14 @@
 {
   "name": "lootloop-postback",
   "version": "1.0.0",
-  "description": "Postback server for LootLoop to receive offer-completion confirmations from CPX Research",
+  "description": "Postback server for LootLoop to receive offer-completion confirmations from CPX Research and store real balances in Supabase",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "@supabase/supabase-js": "^2.45.0"
   }
 }
